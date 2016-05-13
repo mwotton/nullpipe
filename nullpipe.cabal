@@ -10,7 +10,7 @@ maintainer:          mwotton@gmail.com
 copyright:           AllRightsReserved
 category:            Web
 build-type:          Simple
--- extra-source-files:
+tested-with: GHC == 7.4.2, GHC == 7.6.3, GHC == 7.8.4, GHC == 7.11.*
 cabal-version:       >=1.10
 
 library
@@ -20,6 +20,7 @@ library
                      , bytestring
                      , pipes
   default-language:    Haskell2010
+
 
 
 test-suite nullpipe-test
